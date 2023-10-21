@@ -1,0 +1,134 @@
+<footer class="ly-footer">
+    <div class="ly-inner">
+        <div class="footer-logo">
+            <em class="img">
+                <span class="blind">
+                    SNU
+                </span>
+            </em>
+            <p>
+                "Copyright 2023 SNU"
+                <br>
+                "All Rights Reserved.&nbsp;"
+            </p>
+        </div>
+
+        <dl class="footer-copyright">
+            <dt>Gwanak Main campus</dt>
+            <dd>
+                "1 Gwanak-ro, Gwanak-gu, Seoul 08826"
+            </dd>
+            <dt>Yeongeon Medical Campus</dt>
+            <dd>
+                "103 Daehak-ro, Jongno-gu, Seoul 03080"
+
+            </dd>
+            <dt>Pyeongchang Campus</dt>
+            <dd>
+                "1447 Pyeongchang-daero, Daehwa-myeon"
+            </dd>
+        </dl>
+
+        <div class="footer-link">
+            <ul>
+                <li>
+                    <a href="#">
+                        MAPS & DIRECTIONS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        CONTACT US
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        SITE MAP
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        PRIVACY Policy
+                    </a>
+                </li>
+
+            </ul>
+
+            
+        </div>
+    </div>
+
+</footer> -->
+
+
+
+/* footer 
+.ly-footer {
+  background-color: #272945;
+  height: 303px;
+  width: 1349px;
+}
+
+.ly-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  height: 303px;
+  width: 363px
+}
+
+.ly-inner em {
+  font-style: normal;
+  color: #000;
+}
+
+.clfix {
+  zoom: 1;
+  display: block;
+}
+
+
+.img {
+  display: block;
+  width: 82px;
+  height: 85px;
+  background: url(https://en.snu.ac.kr/_skin/eng/layout/image/snu-logo_sm.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.footer-logo p {
+  margin-top: 20px;
+  color: #7d7f8f;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.footer-copyright {
+  width: 34%;
+  margin: 0 0 0 0px;
+  padding-left: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  width: 374px;
+
+}
+
+.footer-copyright dt {
+  color: #bfc0c7;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.footer-copyright dd {
+  margin: 0;
+  color: #7d7f8f;
+  font-size: 12px;
+  line-height: 1.6;
+}
+*/

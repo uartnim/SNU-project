@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+/* style cho tất cả các thẻ */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* header */
+/* right_sidebar */
+#right_sidebar {
+  background-color: #27294580;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 100px;
+  padding-right: 50px;
+
+}
+
+.logoimg {
+  object-fit: contain;
+  display: block;
+  justify-content: center;
+  display: block;
+  height: 66px;
+  width: 156px;
+}
+
+.blind {
+  position: absolute;
+  /* display: inline-block; */
+  height: 1px;
+  width: 1px;
+  border: 0;
+  margin-left: -20px;
+  font-size: 12px;
+  color: white;
+  margin-top: -50px;
+}
+
+#right_sidebar ul li {
+  list-style: none;
+  /* padding-right: 100px; */
+}
+
+.left_side {
+  padding-right: 100px;
+}
+
+#right_sidebar ul {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+#right_sidebar a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.07 em;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  padding-left: 60px;
+}
+
+
+
+.menu_item {
+  position: relative;
+}
+
+.link-inner {
+  display: inline-block;
+  line-height: normal;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.title_course {
+  margin-bottom: 55px;
+  margin-top: 30px;
+}
+
+
+h2 {
+  font-size: 42px;
+  display: block;
+  line-height: 1.3;
+  margin-bottom: 21px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  margin-left: 70px;
+}
+
+
+.shopping_cart {
+  position: relative;
+  text-align: right;
+  margin-right: 100px;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  cursor: pointer;
+}
+
+
+.card_course {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 500px;
+  background-color: #d4cbcb;
+  height: 100vh;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.active .card_course {
+  left: calc(100% - 500px);
+}
+
+.active .course_intro {
+  transform: translateX(-200px);
+}
+
+.card_course h1 {
+  color: #162561;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+}
+
+.card_course .checkOut {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+}
+
+.card_course .checkOut div {
+  background-color: #323b5f;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 15px;
+  width: 90vw;
+  margin: 0 auto;
+  box-shadow:
+    0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+}
+
+.course_row {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: .4s;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.course_img {
+  position: relative;
+  z-index: 1;
+  padding-right: 20px;
+}
+
+.course_img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  border-style: none;
+}
+
+.course_detail {
+  padding: 29px 20px 20px 20px;
+}
+
+.course_detail h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #1f253d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_detail a{
+  color: #1f253d;
+}
+
+.border-btn.border-btn2 {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #E2E4FF;
+  color: #4255A4;
+}
+
+.border-btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  padding: 17px 42px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.4s linear;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.border-btn:hover {
+  background: #051246;
+  color: white;
+}
+
+.row_2nd {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 15px;
+  margin-top: 50px;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 10px;
+  box-shadow:
+    0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+}
+
+.course_row_2nd {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: .4s;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+
+.end-btn {
+  justify-content: center;
+}
+
+.text-center {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50;
+}
+
+
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #27294580;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+footer .about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .about .noidung {
+  margin-right: 30px;
+}
+
+footer .about .footer__logo {
+  width: 40%;
+}
+
+footer .about .noidung .footer__logo {
+  position: relative;
+  color: #f0eded;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about .noidung.footer__logo ::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: rgb(40, 25, 105);
+}
+
+
+
+.social-icon {
+  margin-top: 20px;
+  display: flex;
+}
+
+.social-icon li {
+  list-style: none;
+}
+
+.social-icon li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #eedbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-icon li a:hover {
+  background: rgb(131, 108, 230);
+}
+
+.social-icon .li .i {
+  color: #3d2626;
+  font-size: 10px;
+}
+
+.link_about h2 {
+  position: relative;
+  color: #faf5f5;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.link_about h2::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: rgb(72, 49, 177);
+}
+
+.link_about {
+  position: relative;
+  width: 25%;
+}
+
+.link_about ul li {
+  list-style: none;
+}
+
+.link_about ul li a {
+  color: #ebe9e9;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.link_about ul li a:hover {
+  color: rgb(131, 108, 230);
+}
+
+.about_contact h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about_contact h2::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: rgb(72, 49, 177);
+
+}
+
+.about_contact {
+  width: calc(35%-60px);
+  margin-right: 0;
+}
+
+.about_contact .infor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.about_contact .infor li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.about_contact .infor li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.about_contact .infor li span {
+  color: #eee4e4;
+}
+
+.about_contact .infor li a {
+  color: #f0e3e3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.about_contact .infor li p {
+  display: inline-block;
+}

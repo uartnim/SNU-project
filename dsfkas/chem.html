@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Sciences</title>
+    <link rel="stylesheet" href="./chem.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div id="right_sidebar">
+
+        <ul class="left_side">
+            <a href="#">
+                <li class="menu_item">
+                    <span class="link-inner menu_left">About</span>
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="menu_item">
+                    <span class="link-inner menu_left">Admissions</span>
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="menu_item">
+                    <span class="link-inner menu_left">Schools</span>
+                </li>
+            </a>
+        </ul>
+
+        <a href="main.html">
+            <img src="./snu-logo.png" alt="" class="logoimg">
+            <span class="blind">
+                Seoul National University
+            </span>
+        </a>
+
+
+        <ul class="right_side">
+            <a href="./academic.html">
+                <li class="menu_item">
+                    <span class="link-inner">Courses</span>
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="menu_item">
+                    <span class="link-inner">Students</span>
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="menu_item">
+                    <span class="link-inner">SNU Life</span>
+
+                </li>
+            </a>
+
+        </ul>
+
+        <a href="#">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </a>
+    </div>
+
+
+    <div class="container">
+        <div class="imgBx">
+            <img class="course_img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUwAAACYCAMAAAC4aCDgAAAAwFBMVEX///+mHiUAAAC+v8GkpqmztbihAACkEBqlGCDBcHOurq6iAA6iAxJLS0vW1talGyKhAAnSmpy3VVnguLrTn6GwREjMjI6xQEWGhoY+Pj7t19ju7u7d3d2zS1CcnJxcXFx8fHxlZWWUlJTFgoQXFxdwcHD05+jv3t/29vb48PBMTExVVVWhoaE4ODjm5ubLy8uuNzwjIyO7X2Pds7XDdXkeHh4sLCwRERG7u7vYqKnjwsP05OWMjIznycu+aGyrKC+636iDAAAN00lEQVR4nO2da1fquhaGa3W11VZa8FougiAI3kBlqSDq//9XJ2nuaUsDazI8Y4+8H/aiaZrMPElmZtI6tuNYWf2fqvXU+m0T/jvaP/jz2yb8d2RhAsrCBJSFCSgLE1AWJqAsTEBZmICyMAFlYQLKwgSUhQkoCxNQFiagLExAWZiAsjABZWECysIElIUJKAsTUBYmoCxMQFmYgLIwAWVhAsrCBJSFCSgLE1AWJqAsTEBZmICyMAFlYeoaj7d+1Ahm95qq90f+aLt1pOoJJ9aY9M+796+v1aQpf3C/zdJqWpFHLVJPWy1rfHRUy35ouaek3A8lM336Qy+6oKG1Vffx79t1vyaltWuK1n21bgTTlTR8EtW4qj7UvM9D2SYndd2VUuql9OhNb5xLy4SLqLnum2pQj5Wl5R7itKHrKqDo5ZtedG4EtlN+70703qP61MEaToYwry+xene4uAdeuev2LoV6bZK3u8JXw3uUtScMruXsX7nPKdEb74qrR5ZAf7Tpoz35ySlK6Ge/3mltVFkZPdoHTDcEZpeUeOO+k0rvdJi4I9PL6fToGpuzz5KPuZmZQetwGcKc0l/tLqrnkl0U9C7KywpsoSFyz9O77vGxeyXnXPFuGbeuVAAPrismAOmHqfSkK8FUpzQWhvlXMuxGGahdN803EAsh/EsJtlaSOce0KgMZwuT95EzRqKFMEMy8B5Hn2JHUC6iMD/ddzilgkvsCvHOQhynhQZ30zmHmXV/PfXx3j8W1GUxU6LW42hfTaJcwndZf1tJKmM4dH8WX2O09K81SYOLxJC50mDcP0kRHDV3dr4U5/BDTxxAmKvRRvj7iFe4UJvZY3exHNcw+G26tzNVeKQarMFGpwunnRuZ4yAf5GDf7bi3Ma9w1/IYRzBvVz2KGtHG7henc03qqYV6x6XaVzZqx4vpUmOO1MFuo3Hcy767xveMKmJgFK84EJh8gcqXksR3DZK6wGuY1M5FOmp7cEhVmbd00R/VMaeDzkVUgYObNz2C2OHwjmCs3t5KlpL5dw3yi4RGC2W4xsb/BlGHWWBx1ROE8yUNThfkmL/UFMHHksp9Bwm0UMB9awgSSPYOJ4VMXYwLzTqmQFkOe12KQddoGZosGJmrQfsfyctPbfElM2UrZlZbMlRQAT1P2fKYimM5fXFrXvcFFCpiySHYCE/lrGtibwEzzk4zNomP3+LLHtMo/KmkrmO9FMI9Z3oNxpvYljw6nfEDKy8zKvX64wurj4LUrh6yFMNE/wyO6TtxVw8TONZu6JjAf8yNzSFfLY7mGmzWUth6Z2ZhCMKdtIZZX0kOuAY8ixFmJfI+X6lJaCBOPNRbjCphXwgBaBoOJhzI2ynBkTrWkIR+Z6ZCrl3tS1jYwa3R4lCxAXF3aurbk3f+IXdPKfcwOHA5cZYpjFcPETaYLWuUCROt9G5vBvHdzYUFK69qxzxzShbIE5vDg4eHhYL82FvkVMb+zYivEkRxiZyqB+ZTblpSGRpk+sm4yXM2v1ZQ2O9PY7Wpeo0GKQWiUqaWy5CELh4m9m9JbZTCdK5bNDCaO3ftGMPGOVT3m67KO2ylMNDxo2wxh9t33qTgPnL4zTypgjp81/18Gk8sQJg55pm8mO6DUlbfz2aC+Uqsy0MYw0ZxkIY0ZzPGNOol77jP5IWBiXEoTwWCiwOPvuwlMPDSHyiXLtjuYH6lYo8uO4LTmHWmj7oktRxJMvFD3pDwbwCw6gpPcX3biZHJqhA8B2ZHwGMcNzAB4mOk9VnYS/cxjCASzfyXUfyJ5NZg3umvv0gBOhqktpxvAHD5IJmR9rsDER6Nm55n4GNS9f6i19/GvG+5B4WEK9cVgLHltocLc149jMJusPy5lmC1lBcgdDpfB1Czo4TQVpv4WoxRmNjaZhqKVKTBMPv72lRXvKT2WlWaIdC82TIeOpmHay4wn/1BN+32xu/yTphK+9uOxDnOYksx3qgVZs/upGmjdp7Ir6KXaRBFq9clLoOee3EzoOHMTtVrbvyr9fbXa09qT2oANGmTfmwPKwgSUhQkoCxNQFiagLExAWZiAsjABZWECysIElIUJKAsTUBYmoCxMQFmYgLIwAWVhAsrCBJSFCSgLE1AWJqA2hjm6vR3txpR/1+fXcrn8uv21+jeBOTmZR16m4OW0Kd85+T7EGjjrEs8Pi/X9Su4vSP7Deq7iAc34ta66r0NkWJIk6L+N00+ePPf3yuRluT6/dYPqr1J/DA6Lrfqij82lNHOYzUPf82NiRuyH3tmJuFf3fKToTHnglCResOtO6BfKOyf3zz16rfQT0oLdOFFLnkl5bs88QS0IvRcGfh7FZSIwm55uUJR4nVP2snxZYtVPRJJft4E54CSZxd4F78B6lKV0VJhhlsgJN4LiARIxmBEteKYU40w8mjHhMEl1FyLPa6IV7nvfEwKzamQ2k4JbQRgsaNGHxCy5NtzikFTzIicawvychQU18m4BhbmXqFPqm+Eoh/nqxbli/XC5PUw0+Tw6gSchKTtZSDZ9RiTRm2wO88svBBGzGQoLM47kJW7JBmY5zFEBS9TQf4KJbg9YTxGrfAkc7WBPBmwI88vjHGLkJwSUqLEFTN115WAqk2e8x0GVwjykwNDyGHkJdUchYTH3WT28CZrPTNRkvTcc54UU739zo2gHaw02gjmJWA2+9/MymF941EP5rLBNYAa6whzMPU8sbgPhX8pgTgi+ODlvjka3J/MQmxfMyBIyj1g9bPHkFSswWbLveSHtdea8P+nc8Nii5vyQHJ4WhZnApD2zF0QD+vRJg9jLBv4GMKN85OPkYMYRW0zlSVgG84Q0NlyykhazJM7FBMVG8hqE9/tczGiDWRl1koVXSFcfNgq4DGAyp+XPJPu+fvwg5q5tE5i6BVwSzL2IxZAdydGWwaS1y4HZqacGoaVGFsBEruWM1Mo7/oKOxNPsiq4+etRhBJOW5J8p3ylOXqS+B4fJBsXCk9LKYJIHg4Zc2Gf+o0pzmM4tqZb77i86P0gmOlPFrGeqhtmkzvZnot+osPOfYJJun8gsK0ZmnDNQ0wYw6QASeQfENv/Q4TM1mju6qmEOaD8s1+SBhEnX0wRPKRqB+OthLmgA3VhPcxOYJD4Q8cKYrsEJGo2zrB2xnx/71TB/4kIbqu3cbgGKO6TCOPrkY2AQr4XZZE7dO3xdcwizCcwXbWTyYGjmnIelg6sS5m2kNmSdnWdNSbfnfhFMf37bVMSbT13fy5I7LILV/26Ga2HSsYKzol31fFFybLQJTDIQ5XiXOsqITtRswuuqhPlF4461U6hOZ2goi9SajzOVTKHHpz1fR9jk7lAHM6mCKS9TgZ+EZ4uib/o3gEkm1V50KpJGCZkexKY4KeJRCZNO1ou1mery2qGqajsZ6TA7LAjfo/HIwqmC6TTUk4MgCQf5xhrDnNTZ4i2P8VN5MVQOi7gqYdYL4o6STFAwWRSeyUc1V8Icv2i78ziKcz5tPczovE51+EO7Rst6FihGFcgU5tr1BxqmOChCnmNkANNxXn+0Q7jY01e69TD3IiZ+1Khtopp8+KsnMUKVMEncEc/W/mURNMxJwBtUd4xgOpNFB22q5fGpbygrYObk6UEcPyZISiKSSphLUlehw9XsRD0mKyiG6XuqimCyYy96ZQITabRoxF7Eu0y/vxnMuGBD+hNrTdJUCZPWZRIaxbO6pNPvoAimP1cjoyZ/XSPDZJFImI0uQ5hIk+X5jJ8Xavu9jWBG/sLJaRkWDnmuSpiTvVzIlVehnYutgnZayCibsfRcxhwm1rLDvKBa1UYwz4tm4ohMQP3kjat6B9QoPrurtnO77SQrBE90di6zGUzUjXQnre6eK2D62eJDVz6/cPD9O8zX4lNlxxGvU3cB02n4fD5Vw/x0FJFoQDoaLzVSxJm3EyzqXoKfIgv/HaZDQ4VEo7D0xP5gFzBHfsiWgEqYX9rKS/Z82pbPKGgf0dYWnAmBwDxl+wHF4IEXC5q7gIl8LvtVBXMSBOGFHKTTtU5dj812QGxrmhQcZADAHLNzBMngZfbql9MEPDWS9lrc5iqYeBMfiO8O2MFOoi7IhtvJDpvo+SUIACY/4kIGz84XJ6/1uU/DD7bL2ABm0BnoUl6oFe21KmAe0vNMz/8+f10uztk7/kj1pIYw2SvxKH8uBAHTqfO9chCFSSI2XPRt6WZvJ/WvUUIKZVuYwrrYR+aFLGzXoznTgw5+zJGb6CAwkYPcK1LMHMs/fYTAcmwL87boaxPc0doG2vjUiJ5oxLE+0WFgOqdeAYmAbzF+FaYzHnj5zzZiT9/CGMO8ZSf331pWIJhOc6Z/GhUkF9wn/S5MlKGhf1bmh7n9r/nhMH0vLn8LkQkKJmrBTDI49r0fqedJ7VUwS776MYBJTrkFzPyBdRMtivy7nSD0vj9zpdS97IuNPMxYh+lc+OTrDl/1FCPyDRcATBQPvUSJl4RoCUqib8U7173sDYR6mkIT+av6jhcWiuUYFBVC2kueFB/daSVnGp8MZti0JAk7p0XNXXQaSB19kWaFyzCbF41MHTUoHtGsEDBxLV/LxeLkF790rtDkV78St38gACgLE1AWJqAsTEBZmICyMAFlYQLKwgSUhQkoCxNQFiagLExAWZiAsjABZWECysIElIUJKAsTUBYmoCxMQFmYgLIwAWVhAsrCBJSFCSgLE1AWJqAsTEBZmICyMAFlYQLKwgRU6yn/f9W2srL67+h/lBlmGufRfv4AAAAASUVORK5CYII="
+                alt="">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2 class="course_name">Dept of Chemistry <br>
+                    <span class="course_dept">Natural Sciences</span>
+                </h2>
+                <p>
+                    Established in 1946, SNU Chemistry has a long and distinguished tradition. Many of its graduates are
+                    professors at notable universities and colleges, researchers at prominent government and industrial
+                    laboratories, and leaders in business and commerce in Korea and worldwide. The Research Institute of
+                    Molecular Science was established in the Department in 1990 and the Center for Space Time Molecular
+                    Dynamics in 2007.
+                </p>
+                <h3>$ 12,800</h3>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="about">
+          <div class="noidung">
+            <h2 class="footer__logo">Explore More...</h2>
+            <ul class="social-icon">
+              <li>
+                <a href="">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+  
+              <li>
+                <a href="">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+  
+              <li>
+                <a href="">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+  
+        <div class="link_about">
+          <h2>More...</h2>
+  
+          <ul>
+            <li>
+              <a href="./main.html">Homepage</a>
+            </li>
+  
+            <li>
+              <a href="#">Overview</a>
+            </li>
+  
+            <li>
+              <a href="#">Contact</a>
+            </li>
+  
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="about_contact">
+          <h2>Information</h2>
+          <ul class="infor">
+            <li>
+              <span>
+                <i class="fa fa-map-marker"></i>
+              </span>
+  
+              <span>Hanoi, Vietnam</span>
+            </li>
+  
+            <li>
+              <span>
+                <i class="fa fa-phone">
+                </i>
+                <p>
+                  <a href="#">+84 170 307 3577</a>
+                </p>
+              </span>
+            </li>
+  
+            <li>
+              <form class="form">
+                <span>
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <p>
+                  <a href="#">minhchautrinh1703@gmail.com</a>
+                </p>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </footer>
+    <script src="./chem.js"></script>
+</body>
+
+</html>
